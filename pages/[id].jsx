@@ -54,7 +54,7 @@ export default function Post({post}) {
             <li>المتحدث {post.name}</li>
           </ul>
         </div>
-        <div class="content" style={{padding: "0"}}>
+        <div class="content" style={{display: `${post.id ==0 ? 'none' : ''}`}} style={{padding: "0"}}>
           <Link href={`${post.id +1}`}><a style={{display: `${post.id +1 == Dataa.length ? 'none' : ''}`}} className="btn btn-danger">المتحدث التالي</a></Link>
           <ul style={{display: `${post.id -1 ==0 ? 'none' : ''}`}}>
             <li><Link href={`${post.id -1}`}><a style={{color: "#fff"}} className="btn btn-danger">المتحدث السابق</a></Link> </li>
