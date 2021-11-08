@@ -5,7 +5,8 @@ export const Dataa = [
     title: "للاسف صفحة المتحدث الذي تبحث عنها غير موجودة",
     website: 'العودة الي صفحة المتحدثين',
     link: '/',
-    body: 'sssss'
+    bodye: '',
+    body: ''
   },
   {
     name: "نديم بركات",
