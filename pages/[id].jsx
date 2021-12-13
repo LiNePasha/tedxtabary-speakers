@@ -91,7 +91,7 @@ export default function Post({post}) {
         <div class="row justify-content-center">
           
           <div class="col-9 text-center">
-          <iframe width="560" height="315" src={post.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe style={{width: "100%"}} height="315" src={post.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
