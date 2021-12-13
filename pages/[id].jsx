@@ -86,6 +86,17 @@ export default function Post({post}) {
       </div>
     </section>
 
+    <section class="speaker-video">
+      <div class="container">
+        <div class="row justify-content-center">
+          
+          <div class="col-9 text-center">
+          <iframe width="560" height="315" src={post.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer class="footer-seven">
             <div class="overlay">
                 <div class="container">
