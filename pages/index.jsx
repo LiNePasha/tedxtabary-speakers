@@ -44,7 +44,7 @@ export default function Home({posts}) {
                                 <div className="seven-content-left">
                                     <div className="content">
                                         <h3>صفحة المتحدثين في احداث تيدكس طبري الحجاز</h3>
-                                        <h1>نحن نشكر جميع متحديثينا الرائعين علي مشاركتهم معنا</h1>
+                                        <h1>   نحن نشكر جميع المتحدثين الرائعين على مشاركتهم معنا</h1>
                                     </div>
                                 </div>
                             </div>
